@@ -25,8 +25,8 @@ Includes a Streamlit UI for interactive search.
 
 1. Clone the Repo
 
-git clone https://github.com/your-username/freshservice-rag.git
-cd freshservice-rag
+git clone https://github.com/ktj709/API-scraping-freshservic)
+
 
 
 2. Install Dependencies
