@@ -79,17 +79,28 @@ streamlit run interface.py
 
 ## 📂 Project Structure
 
-├── interface.py         # Streamlit frontend    
+├── interface.py         # Streamlit frontend   
+
 ├── README.md            # This file
+
 ├── main.py              # CLI entrypoint
+
 ├── config.py            # Configuration + API keys
+
 ├── scraper.py           # Scraping docs
+
 ├── processor.py         # Cleaning + chunking
+
 ├── embedder.py          # Embedding + vector index
+
 ├── retriever.py         # Semantic retrieval
+
 ├── llm_handler.py       # Gemini / OpenAI query handler
+
 ├── utils.py             # Text cleaning + helpers
+
 ├── data/                # JSON and index files
+
 └── requirements.txt
 
 ## ✅ Example Query
