@@ -25,7 +25,7 @@ Includes a Streamlit UI for interactive search.
 
 1. Clone the Repo
 
-git clone https://github.com/ktj709/API-scraping-freshservic)
+git clone https://github.com/ktj709/API-scraping-freshservice
 
 
 
