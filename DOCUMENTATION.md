@@ -87,8 +87,6 @@ Focused Scraping: Only scrapes the Ticket Attributes page (reduces noise).
 
 Chunking with Overlap: Ensures answers have full context without cutting important details.
 
-Gemini First, OpenAI Backup: Reliable query answering even when one service fails.
-
 Citations Included: Provides transparency and trustworthiness.
 
 ## 7. Future Improvements
