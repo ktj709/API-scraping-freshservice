@@ -27,7 +27,7 @@ class Config:
 
     # LLM (Gemini)
     USE_GEMINI_LLM: bool = True
-    GEMINI_MODEL: str = "gemini-2.0-flash"
+    GEMINI_MODEL: str = "gemini-1.5-flash"
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY")
 
     # Retrieval
