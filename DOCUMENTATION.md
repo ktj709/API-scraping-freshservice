@@ -14,7 +14,7 @@ Embeddings + Vector Index to enable semantic search.
 
 Retriever to fetch relevant context.
 
-LLM (Gemini 2.0 Flash with OpenAI fallback) to generate the final answers.
+LLM (Gemini 1.5 Flash) to generate the final answers.
 
 Streamlit UI + CLI for user interaction.
 
@@ -49,9 +49,7 @@ For a user query, retrieves the Top-K most relevant chunks using cosine similari
 
 Constructs a prompt with user query + retrieved context.
 
-Sends the request to Gemini 2.0 Flash (google-generativeai).
-
-If Gemini fails (e.g., overloaded), falls back to OpenAI GPT-4o-mini.
+Sends the request to Gemini 1.5 Flash (google-generativeai).
 
 Returns the answer along with citations.
 
