@@ -5,7 +5,7 @@ from llm_handler import answer_query
 
 st.set_page_config(page_title="Freshservice API RAG", layout="wide")
 
-st.title("🔎 Freshservice API RAG Assistant (Gemini 2.0 Flash)")
+st.title("🔎 Freshservice API RAG Assistant")
 
 query = st.text_input("Ask about Freshservice API:")
 
