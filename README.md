@@ -2,7 +2,7 @@
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline to interact with the Freshservice API documentation
 .
-It scrapes the API docs, processes them into semantic chunks, builds a vector index, and answers user queries using Gemini 2.0 Flash .
+It scrapes the API docs, processes them into semantic chunks, builds a vector index, and answers user queries using Gemini 1.5 Flash .
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ Generates embeddings with SentenceTransformers.
 
 Retrieves top-k relevant chunks for a query.
 
-Answers questions using Gemini 2.0 Flash .
+Answers questions using Gemini 1.5 Flash .
 
 Provides source citations with every answer.
 
